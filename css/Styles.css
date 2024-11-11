@@ -1,0 +1,152 @@
+/*Background of the navigation bar*/
+nav {
+    background-color: rgb(48, 48, 96);
+    width: 50%
+}
+
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+/*Registration button for registration page*/
+#registration button {
+
+    width: 200px;
+    height: 50px;
+}
+
+/*Home page layout*/
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+}
+
+#quiz {
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    flex-direction: left;
+    align-items: right;
+    display: column;
+}
+
+/* Button rectangle position going to the quiz game */
+#rectangle {
+    justify-content: bottom;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: 100;
+    display: flex;
+    align-items: bottom;
+}
+
+/*Button goes to the game for the homepage */
+#startBtn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px;
+
+}
+
+
+
+/*Body of the pages*/
+body {
+    background-color: lightblue;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50;
+
+
+}
+
+
+
+/* Registration page */
+#registration {
+    background-color: lightblue;
+    margin-top: 1em;
+    padding: 1rem;
+    padding-inline: 30rem;
+    padding: 32px 100px 57px 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    border-radius: 15px;
+    margin: 50px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    font-family: monospace;
+
+}
+
+/* Login page */
+#login {
+    background-color: lightblue;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-inline: 30rem;
+    padding: 32px 100px 57px 100px;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    border-radius: 15px;
+    margin: 50px auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    font-family: monospace;
+
+}
+
+
+/*Table rows for ranking page*/
+#tr {
+    border: 2px solid rgb(48, 48, 96);
+    ;
+    text-align: left;
+    padding: 10px 200px;
+    width: 11%;
+    table-layout: fixed;
+}
+
+#tr1 {
+    border: 2px solid rgb(48, 48, 96);
+    ;
+    text-align: left;
+    padding: 10px 200px 20px;
+    width: 11%;
+    table-layout: fixed;
+
+}

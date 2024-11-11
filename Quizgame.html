@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Heading and Links of the document-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of the webpage which shows in the browser-->
+    <title>Quiz game</title>
+    <div id="quiz">
+        <link rel="stylesheet" href="css/Styles.css">
+    </div>
+</head>
+<!--Navigation links and quiz game -->
+
+<body>
+
+    <nav class="">
+        <a href="Index.html">Home</a>
+        <a href="Register.html">Register</a>
+        <a id="logout">Logout</a>
+        <a href="Quizgame.html">Quiz</a>
+        <a href="Rankings.html">Rankings</a>
+    </nav>
+    <h1>Welcome to my Quiz game!!</h1>
+    <h4>Answer the following questions below by clicking the mutliple choice button and when finished click submit to
+        check your score. </h4>
+    <h4>After finishing with the quiz please remember to logout.</h4>
+    <!--Almost got this working as I need to make sure it shouldn't show log out on the navigation bar for an undefined user when clicking on the start button in the index page. -->
+    <div class="quiz1">
+
+        <br>
+        <h3>1. What is the capital of Belgium? </h3>
+        <b>
+
+            <input id="Q1a" type="radio" name="q1" value="false">
+            <label for="q1a">Paris</label>
+            <br>
+            <input id="Q1b" type="radio" name="q1" value="true">
+            <label for="q1b">Brussels</label>
+            <br>
+            <input id="Q1c" type="radio" name="q1" value="false">
+            <label for="q1c">Oslo</label>
+            <br>
+            <input id="Q1d" type="radio" name="q1" value="false">
+            <label for="q1d">Berlin</label>
+        </b>
+
+        <br>
+        <br>
+        <h3>2: What is (5*2) + 4?</h3>
+
+        <b>
+            <input id="Q2a" type="radio" name="q2" value="false">
+            a: 15
+            <br>
+            <input id="Q2b" type="radio" name="q2" value="false">
+            b: 13
+            <br>
+            <input id="Q2c" type="radio" name="q2" value="false">
+            c: 12
+            <br>
+            <input id="Q2d" type="radio" name="q2" value="true">
+            d: 14
+            <br>
+        </b>
+        <br>
+        <br>
+        <h3>3: What is the capital of China?",</h3>
+        <b>
+            <input id="Q3a" type="radio" name="q3" value="false">
+            a: Zurich<br>
+            <input id="Q3b" type="radio" name="q3" value="false">
+            b: Oslo<br>
+            <input id="Q3c" type="radio" name="q3" value="false">
+            c: Berlin<br>
+            <input id="Q3d" type="radio" name="q3" value="true">
+            d: None of the above<br>
+        </b>
+        <br>
+        <br>
+        <h3>4: What is 6 * 4?</h3>
+        <b>
+            <input id="Q4a" type="radio" name="q4" value="false">
+            a: 10<br>
+            <input id="Q4b" type="radio" name="q4" value="true">
+            b: 24<br>
+            <input id="Q4c" type="radio" name="q4" value="false">
+            c: 23<br>
+            <input id="Q4d" type="radio" name="q4" value="false">
+            d: 22<br>
+        </b>
+        <br>
+        <br>
+        <h3>5: What is the capital of Norway?</h3>
+        <b>
+            <input id="Q5a" type="radio" name="q5" value="true">
+            a: Oslo<br>
+            <input id="Q5b" type="radio" name="q5" value="false">
+            b: Madrid<br>
+            <input id="Q5c" type="radio" name="q5" value="false">
+            c: Berlin<br>
+            <input id="Q5d" type="radio" name="q5" value="false">
+            d: Paris<br>
+        </b>
+        <br>
+        <br>
+        <h3>6: What is the capital of Spain?</h3>
+        <b>
+            <input id="Q6a" type="radio" name="q6" value="false">
+            a: London<br>
+            <input id="Q6b" type="radio" name="q6" value="false">
+            b: Berlin<br>
+            <input id="Q6c" type="radio" name="q6" value="true">
+            c: Madrid <br>
+            <input id="Q6d" type="radio" name="q6" value="false">
+            d: Oslo<br>
+        </b>
+        <br>
+        <br>
+        <h3>7: What is 3 + 2 ?</h3>
+        <b>
+            <input id="Q7a" type="radio" name="q7" value="false">
+            a: 1<br>
+            <input id="Q7b" type="radio" name="q7" value="false">
+            b: 4<br>
+            <input id="Q7c" type="radio" name="q7" value="true">
+            c: 5<br>
+            <input id="Q7d" type="radio" name="q7" value="false">
+            d: 6<br>
+        </b>
+        <br>
+        <br>
+        <h3>8: What is the capital of India?</h3>
+        <b>
+            <input id="Q8a" type="radio" name="q8" value="false">
+            a: Rome<br>
+            <input id="Q8b" type="radio" name="q8" value="true">
+            b: New Delhi<br>
+            <input id="Q8c" type="radio" name="q8" value="false">
+            c: Berlin<br>
+            <input id="Q8d" type="radio" name="q8" value="false">
+            d: Paris<br>
+        </b>
+        <br>
+        <br>
+        <h3>9: What is 15 / 5?</h3>
+        <b>
+            <input id="Q9a" type="radio" name="q9" value="true">
+            a: 3<br>
+            <input id="Q9b" type="radio" name="q9" value="false">
+            b: 2<br>
+            <input id="Q9c" type="radio" name="q9" value="false">
+            c: 10<br>
+            <input id="Q9d" type="radio" name="q9" value="false">
+            d: 1<br>
+        </b>
+        <br>
+        <br>
+        <h3>10: What is the capital of Portugal?</h3>
+        <b>
+            <input id="Q10a" type="radio" name="q10" value="false">
+            a: Amsterdam<br>
+            <input id="Q10b" type="radio" name="q10" value="true">
+            b: Lisbon<br>
+            <input id="Q10c" type="radio" name="q10" value="false">
+            c: Madrid<br>
+            <input id="Q10d" type="radio" name="q10" value="false">
+            d: Berlin<br>
+        </b>
+    </div>
+    <div>
+        <button onclick="submitAnswers()">Submit</button>
+        <br>
+        <h3 id="Score"><b>
+                <show onclick="submitAnswers()">Score:</show>
+                <!--Score shows after clicking the button-->
+            </b></h3>
+    </div>
+
+    <script src="js/quiz.js"></script>
+
+</body>
+
+</html>
